@@ -8,8 +8,10 @@ import matplotlib.pyplot as plt
 # ======================
 # LOAD MODEL
 # ======================
-model = joblib.load("E:/bankruptcy-risk-system/model/xgb_model.pkl")   
-features = joblib.load("E:/bankruptcy-risk-system/model/features.pkl") 
+#model = joblib.load("E:/bankruptcy-risk-system/model/xgb_model.pkl")  
+model = joblib.load("model/xgb_model.pkl") 
+#features = joblib.load("E:/bankruptcy-risk-system/model/features.pkl") 
+features = joblib.load("model/features.pkl")
 
 # ======================
 # TITLE
